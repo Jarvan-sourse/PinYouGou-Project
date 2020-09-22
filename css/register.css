@@ -1,0 +1,113 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+input,
+button {
+    border: 0;
+    outline: none;
+}
+img {
+    vertical-align: middle;
+}
+/* 字体 */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?3a2xdr');
+    src:  url('../fonts/icomoon.eot?3a2xdr#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?3a2xdr') format('truetype'),
+      url('../fonts/icomoon.woff?3a2xdr') format('woff'),
+      url('../fonts/icomoon.svg?3a2xdr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 顶部部分 start */
+.middle {
+    overflow: hidden;
+}
+.logo {
+    margin: 25px 0 10px 5px;
+}
+.logo a {
+    display: block;
+    width: 175px;
+    height: 56px;
+    background-image: url(../img/logo.png);
+}
+/* 顶部部分 end */
+
+/* 注册页面详情 start */
+.register-container {
+    height: 520px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+.register-head {
+    height: 42px;
+    line-height: 42px;
+    background-color: #ECECEC;
+    padding: 0 10px;
+    color: #333333;
+}
+.newUser {
+    font-size: 18px;
+}
+.registed {
+    float: right;
+}
+.registed a {
+    color: red;
+}
+.register-info {
+    padding: 52px 0 0 280px;
+}
+.register-items {
+    line-height: 36px;
+    margin-top: 20px;
+}
+.register-items input {
+    height: 34px;
+    width: 238px;
+    border: 1px solid #ccc;
+    text-indent: 10px;
+}
+.register-items label {
+    display: inline-block;
+    width: 86px;
+    text-align: right;
+}
+.protocal {
+    line-height: 19px;
+    padding-left: 85px;
+    margin-top: 40px;
+}
+.protocal input {
+    vertical-align: middle;
+}
+.protocal span a {
+    color: #00a4ff;
+}
+.confirm-reg {
+    margin: 48px 0 0 106px;
+}
+.confirm-reg a {
+    display: block;
+    width: 200px;
+    height: 34px;
+    background-color: #C71523;
+    line-height: 34px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+/* 注册页面详情 end */

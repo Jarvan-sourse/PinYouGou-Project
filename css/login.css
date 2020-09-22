@@ -1,0 +1,249 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+input,
+button {
+    border: 0;
+    outline: none;
+}
+img {
+    vertical-align: middle;
+}
+/* 字体 */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?3a2xdr');
+    src:  url('../fonts/icomoon.eot?3a2xdr#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?3a2xdr') format('truetype'),
+      url('../fonts/icomoon.woff?3a2xdr') format('woff'),
+      url('../fonts/icomoon.svg?3a2xdr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 顶部部分 start */
+.middle {
+    overflow: hidden;
+}
+.logo {
+    margin: 25px 0 10px 5px;
+}
+.logo a {
+    display: block;
+    width: 175px;
+    height: 56px;
+    background-image: url(../img/logo.png);
+}
+/* 顶部部分 end */
+
+/* 登入部分详情 start */
+.login-container {
+    height: 486px;
+    background-color: #7E00FF;
+}
+.login-bg {
+    height: 100%;
+    background: url(../img/loginbg.png) no-repeat;
+    position: relative;
+}
+.login-info {
+    width: 379px;
+    height: 362px;
+    padding: 20px 38px 0 36px;
+    background-color: #fff;
+    position: absolute;
+    left: 686px;
+    top: 60px;
+    box-sizing: border-box;
+}
+.login-options {
+    height: 47px;
+    width: 283px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: '微软雅黑';
+    color: #707070;
+}
+.login-options li {
+    float: left;
+}
+.login-options .space {
+    margin: 0 66px;
+}
+.login-info p {
+    line-height: 26px;
+    font-size: 12px;
+    color: #656565;
+    background-color: #FFFCED;
+    padding-left: 10px;
+}
+.input-type {
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+    position: relative;
+}
+.text {
+    margin: 5px 0 18px;
+}
+
+.text span {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    width: 37px;
+    height: 34px;
+    background: #ccc url(../img/icons.png) no-repeat -9px -199px;
+}
+.input-type .userName {
+    width: 256px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #B3B3B3;
+    padding-left: 48px;
+    vertical-align: top;  /* 这个和重要  表单默认基线对其 */
+}
+.password span {
+    position: absolute;
+    top: 1;
+    left: 0;
+    width: 37px;
+    height: 34px;
+    background: #ccc url(../img/icons.png) no-repeat -71px -199px;
+}
+.setting {
+    margin: 20px 0;
+    font-size: 12px;
+}
+.checked {
+    vertical-align: middle;
+}
+.forget {
+    float: right;
+}
+.logined{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.logined a{
+    background-color: #C71523;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+}
+.login-info-bt img {
+    margin-left: -18px;
+}
+.login-info-bt a {
+    margin-left: 32px;
+    color: #1474AF;
+}
+/* 登入部分详情 end */
+
+/* 底部部分 start */
+
+footer {
+    margin-top: 20px;
+    width: 100%;
+    height: 417px;
+    background-color: #F5F5F5;
+}
+.box .box-top {
+    height: 108px;
+    border-bottom: 1px solid #ccc;
+}
+.box .box-top ul {
+    height: 108px;
+    padding-top: 32px;
+}
+.box .box-top li {
+    width: 270px;
+    font-size: 14px;
+    padding-left: 90px;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+}
+.box .box-top li::before {
+    content: '';
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    background: url(../img/icons.png) no-repeat -253px -3px;
+    left: 34px;
+    top: -3px;
+}
+.box .box-middle {
+    height: 186px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    position: relative;
+}
+.box .box-middle dl {
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+.box .box-middle dl dt {
+    font-size: 16px;
+    color: #333333;
+    line-height: 30px;
+}
+.box .box-middle dl dd {
+    font-size: 12px;
+    line-height: 20px;
+    color: #666666;
+}
+.box .box-middle .scan {
+    position: absolute;
+    width: 155px;
+    height: 160px;
+    top: 20px;
+    right: 48px;
+    text-align: center;
+}
+.box .box-middle .scan h3 {
+    font-size: 16px;
+    color: #333333;
+    height: 30px;
+}
+.box .box-middle .scan img {
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin: 0 auto 5px;
+}
+.box .box-bottom {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 12px;
+    line-height: 30px;
+}
+.box .box-bottom a {
+    margin-right: 5px;
+}
+.box .box-bottom span {
+    line-height: 20px;
+    display: inline-block;
+}
+
+/* 底部部分 ens */
